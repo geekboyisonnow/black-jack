@@ -2,8 +2,53 @@ html {
   height: 100%;
 }
 
+header {
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  text-align: center;
+  min-height: 100%;
+  margin: 0;
+  padding: 1px;
+  font: 50px / 1 sans-serif;
+}
+
 body {
   margin: 0;
+  background-image: url(images/poker-bkg.jpg);
+  text-align: center;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 24px / 1 sans-serif;
 }
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 50px;
+  margin: 50px;
+}
+
+li {
+  background-color: white;
+  padding: 10px;
+}
+
+.border {
+  border: 1px dotted black;
+}
+
+button {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/*
+.dealer-hand li:nth-child(1) {
+  display: none;
+}
+
+.dealer-hand.shown li:nth-child(1) {
+  display: initial;
+}*/
